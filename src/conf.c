@@ -67,7 +67,7 @@
 
 #define CONFIG_FILE "SystemConfiguration"CONFIG_EXT
 
-static char *__config_dir = "/data/data/com.termux/files/usr/var/lib";
+static char *__config_dir = "./";
 
 #ifdef WIN32
 static char *config_utf16_to_utf8(wchar_t *unistr, long len, long *items_read, long *items_written)
